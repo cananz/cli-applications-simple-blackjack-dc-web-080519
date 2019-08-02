@@ -28,8 +28,12 @@ def initial_round
   return hand
 end
 
-def hit?
-  # code hit? here
+def hit?(current_hand)
+  prompt_user
+  choice = get_user_input
+  
+  if choice == 'h'
+    current_hand = current_hand + deal_card
 end
 
 def invalid_command
