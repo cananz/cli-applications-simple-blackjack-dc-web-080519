@@ -40,13 +40,9 @@ def hit?(current_hand)
   
   if entry == "h"
     current_hand += deal_card
+  end
      
      
-      if 's'
-        return current_hand
-        else
-        invalid_command
-        prompt_user
       end
     end
   
