@@ -39,6 +39,7 @@ def hit?(current_hand)
   end
   
   if entry == "h"
+    current_hand
       
       hit = deal_card
       current_hand = current_hand + hit
