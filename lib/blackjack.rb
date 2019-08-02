@@ -32,7 +32,7 @@ def hit?(current_hand)
   prompt_user
   entry = get_user_input
   
-    if  'h'
+  if entry 
       hit = deal_card
       current_hand = current_hand + hit
       return current_hand
