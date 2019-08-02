@@ -60,7 +60,7 @@ if current_hand <= 21
     display_card_total(current_hand)
   end
 else
-  end_game
+  end_game(current_hand)
 end
 end
     
