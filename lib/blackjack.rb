@@ -34,6 +34,10 @@ def hit?(current_hand)
   
   if choice == 'h'
     current_hand = current_hand + deal_card
+  end
+  if choice != 'h' || 's'
+    invalid_command
+  end
 end
 
 def invalid_command
