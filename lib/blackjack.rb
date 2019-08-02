@@ -1,5 +1,5 @@
 def welcome
-  # code #welcome here
+  puts 
 end
 
 def deal_card
@@ -8,7 +8,7 @@ end
 
 def display_card_total (total)
   
-  puts ""
+  puts "Your cards add up to #{total}"
 end
 
 def prompt_user
