@@ -30,7 +30,7 @@ end
 
 def hit?(current_hand)
   prompt_user
-  choice = get_user_input
+  get_user_input
   
   if choice == 'h'
     current_hand = current_hand + deal_card
