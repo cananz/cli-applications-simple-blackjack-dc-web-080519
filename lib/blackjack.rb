@@ -36,7 +36,7 @@ def hit?(current_hand)
     invalid_command
     prompt_user
     entry = get_user_input
-      
+  end
       
       
       hit = deal_card
