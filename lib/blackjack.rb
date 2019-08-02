@@ -35,6 +35,7 @@ def hit?(current_hand)
   if entry != "h" && entry != "s"
     invalid_command
     prompt_user
+    entry = get_user_input
       
       
       
