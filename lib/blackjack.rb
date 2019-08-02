@@ -23,17 +23,17 @@ def end_game(total)
 end
 
 def initial_round
-  hand = deal_card + deal_card
-  display_card_total(hand)
+  total = deal_card + deal_card
+  display_card_total(total)
   return hand
 end
 
-def hit?(current_hand)
+def hit?(total)
   prompt_user
   entry = get_user_input
 
   if entry == "h"
-    current_hand += deal_card
+    total += deal_card
   end
   
   if entry != "h" && entry != "s"
@@ -41,7 +41,7 @@ def hit?(current_hand)
     prompt_user
     entry = get_user_input
   end
-current_hand
+total
 end
 
 def invalid_command
