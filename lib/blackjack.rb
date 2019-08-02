@@ -41,11 +41,7 @@ def hit?(current_hand)
   if entry == "h"
     current_hand += deal_card
   end
-     
-     
-      end
-    end
-  
+  current_hand
 end
 
 def invalid_command
