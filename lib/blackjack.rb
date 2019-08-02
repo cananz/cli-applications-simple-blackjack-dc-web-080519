@@ -55,7 +55,7 @@ end
 def runner
   welcome
   current_hand = initial_round
-  hit?(current_hand)
+  if hit?(current_hand)
 
 end
     
