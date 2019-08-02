@@ -53,8 +53,9 @@ end
 #####################################################
 
 def runner
-welcome
-hit?(initial_round)
+  welcome
+  current_hand = initial_round
+  hit?(current_hand)
 
 end
     
