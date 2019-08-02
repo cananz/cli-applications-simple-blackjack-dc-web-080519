@@ -32,12 +32,14 @@ def hit?(current_hand)
   prompt_user
   get_user_input
   
-  if choice == 'h'
-    current_hand = current_hand + deal_card
-  end
-  if choice != 'h' || 's'
-    invalid_command
-  end
+    if  'h'
+      deal_card
+      current_hand = current_hand + deal_card
+    end
+    if !'h' || !'s'
+      invalid_command
+      prompt_user
+    end
 end
 
 def invalid_command
