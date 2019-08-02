@@ -43,7 +43,7 @@ def hit?(current_hand)
         prompt_user
       end
     end
-  end
+  
 end
 
 def invalid_command
