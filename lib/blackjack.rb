@@ -41,8 +41,7 @@ def hit?(current_hand)
     prompt_user
     entry = get_user_input
   end
-
-  current_hand
+current_hand
 end
 
 def invalid_command
