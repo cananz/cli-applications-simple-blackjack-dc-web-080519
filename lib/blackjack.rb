@@ -31,16 +31,17 @@ end
 def hit?(current_hand)
   prompt_user
   entry = get_user_input
+
+  if entry == "h"
+    current_hand += deal_card
+  end
   
   if entry != "h" && entry != "s"
     invalid_command
     prompt_user
     entry = get_user_input
   end
-  
-  if entry == "h"
-    current_hand += deal_card
-  end
+
   current_hand
 end
 
