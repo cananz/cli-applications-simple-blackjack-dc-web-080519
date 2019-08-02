@@ -35,9 +35,9 @@ def hit?(current_hand)
     if  'h'
       hit = deal_card
       current_hand = current_hand + hit
-      current_hand
+      return current_hand
       if 's'
-        current_hand
+        return current_hand
         else
         invalid_command
         prompt_user
